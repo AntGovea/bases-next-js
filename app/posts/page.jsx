@@ -1,5 +1,6 @@
 // el @ es una ruta desde root la cual esta configurada en el jsconfig.json
 import PostCards from "@/components/PostCards";
+import './Posts.css'
 
 // RSC React Server Component
 async function loadPosts() {
@@ -12,7 +13,7 @@ async function loadPosts() {
 async function PostsPage() {
   const posts = await loadPosts();
   return (
-    <div>
+    <div className="grid">
       {posts.map((post) => {
         return <PostCards post={post} key={post.id} />;
       })}

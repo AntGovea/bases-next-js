@@ -1,3 +1,3 @@
 export default function HomePage(){
-    return <h1>Hello word</h1>
+    return <h1>Home Page</h1>
 }

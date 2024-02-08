@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { Roboto } from "next/font/google";
+import './globals.css'
 // metadatos de la pagina, solo con crear el obj metadata
 export const metadata = {
   title: "Mi pagina con NextJS",
